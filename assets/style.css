@@ -9,6 +9,19 @@ body{
   margin: auto;
 }
 
+/* utility */
+.fr{
+  float: right;
+}
+
+.fl{
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+/* utility */
+
+/* header */
 header{
   position: relative;
   margin: auto;
@@ -76,22 +89,11 @@ ul li{
   border-left: 3px solid black;
   border-right: 3px solid black;
 }
-
-/* utility */
-.fr{
-  float: right;
-}
-
-.fl{
-  float: left;
-  margin-right: 20px;
-  margin-top: 15px;
-
-}
-/* utility */
+/* /header */
 
 
-
+/* main */
+/* /colonna di sinistra */
 main{
   margin: auto;
   width: 950px;
@@ -124,7 +126,9 @@ Nav > p{
   text-align: left;
   color: green;
 }
+/* /colonna di sinistra */
 
+/* colonna di destra */
 .center{
   font-size: 18px;
   padding: 20px;
@@ -139,6 +143,13 @@ Nav > p{
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.center > p{
+  line-height: 35px;
+}
+/* /colonna di centro */
+
+
+/* colonna di destra */
 .colonna_destra{
   float: right;
   width: 20%;
@@ -162,7 +173,11 @@ Nav > p{
 
 .right > p{
   padding: 10px;
+  line-height: 30px;
 }
+/* /colonna di destra */
+/* /main */
+
 
 footer{
   margin: auto;
